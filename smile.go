@@ -13,7 +13,7 @@ func main() {
 	r := 32.0
 	p := r / 2.0
 	q := p / 5.0
-	s := " "
+	s := ""
 	for y := -p; y < p; y++ {
 		for x := -r; x < r; x++ {
 			d := C(y, r*2, p)
